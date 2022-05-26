@@ -13,7 +13,7 @@ typedef struct SequenceList {
 /**
  * 直接用流输出，便于调试
  */
-ostream& operator<<(ostream& out, SqList& L) {
+ostream& operator<<(ostream& out, const SqList& L) {
     for (int i = 0; i < L.len; ++i) {
         out << L.data[i] << " ";
     }
