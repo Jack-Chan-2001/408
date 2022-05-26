@@ -4,11 +4,6 @@ using namespace std;
 
 typedef int ElemType;
 
-typedef struct ListNode {
-    ElemType data;
-    struct ListNode* next;
-} Lnode, * LinkedList;
-
 #define MAX_SIZE 50
 typedef struct SequenceList {
     ElemType data[MAX_SIZE];
