@@ -1,0 +1,28 @@
+{
+    "editor.fontLigatures": true,
+
+    "files.insertFinalNewline": true, // linux convention
+
+    "files.associations": {
+        "vector": "cpp",
+        "ostream": "cpp",
+        "random": "cpp",
+        "*.tcc": "cpp",
+        "cstring": "cpp",
+        "iostream": "cpp",
+        "sstream": "cpp",
+        "string_view": "cpp",
+        "algorithm": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "numeric": "cpp",
+        "list": "cpp",
+        "set": "cpp",
+        "iosfwd": "cpp"
+    },
+    "cmake.configureOnOpen": true,
+
+}
+
+// https://code.visualstudio.com/docs/editor/variables-reference
+// https://code.visualstudio.com/docs/cpp/config-wsl
