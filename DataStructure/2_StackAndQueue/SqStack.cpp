@@ -1,3 +1,6 @@
+/**
+ * 栈的顺序表实现
+ */
 #include <iostream>
 using namespace std;
 

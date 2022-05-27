@@ -1,3 +1,6 @@
+/**
+ * 双向链表
+ */
 #include <iostream>
 using namespace std;
 
