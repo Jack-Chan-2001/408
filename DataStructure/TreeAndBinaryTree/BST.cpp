@@ -91,7 +91,6 @@ void deleteElem(BiTree& T, KeyType elem) {
             T->key = temp->key;
             deleteElem(T->lchild, temp->key); // 递归思想
         }
-
     }
 }
 
