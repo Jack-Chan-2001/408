@@ -119,7 +119,6 @@ void DFSHelper(const LGraph& G, int i, bool* visited) {
 }
 
 void DFS(const LGraph& G) {
-    int i;
     bool visited[MAX_VNUM];
     for (int i = 0; i < MAX_VNUM; ++i) {
         visited[i] = false;
@@ -133,13 +132,11 @@ void DFS(const LGraph& G) {
 }
 
 void BFS(const LGraph G) {
-    // 辅助队列
-    int queue[MAX_VNUM];
+    int queue[MAX_VNUM];  // 辅助队列
     int head = 0, tail = 0;
     int j, k;
     bool visited[MAX_VNUM];
     ENode* node;
-
     for (int i = 0; i < G.VNums; ++i) {
         visited[i] = false;
     }
