@@ -59,7 +59,7 @@ void printList(LinkedList L) {
 }
 
 /**
- * 按序号查找结点值
+ * 按序号查找结点
  **/
 LNode* findKth(LinkedList L, int pos) {
     LNode* p = L->next;
@@ -117,12 +117,22 @@ bool deleteKth(LinkedList L, int pos) {
     return true;
 }
 
+int Length(LinkedList L) {
+    int ret = 0;
+    LNode* p = L->next;
+    while (p != nullptr) {
+        p = p->next;
+        ret++;
+    }
+    return ret;
+}
+
 int main() {
     LinkedList L; // 链表头
     // createList1(L);
     createList2(L);
     printList(L);
-    
+    cout << "Length is " << Length(L) << endl;
     int k = 3;
     cout << findKth(L, k)->data << endl;
 
