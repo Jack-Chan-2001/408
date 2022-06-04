@@ -100,7 +100,6 @@ bool insertElem(DLinkedList DL, int pos, ElemType elem) {
     p->next->prior = newNode;
     p->next = newNode;
     return true;
-
 }
 
 bool deleteKth(DLinkedList DL, int pos) {
